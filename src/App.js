@@ -30,7 +30,7 @@ function App() {
                       card.chart[0].y,
                       card.chart[card.chart.length - 1].y,
                     ) > 0 ? (
-                      <span className="inline-block px-2 py-1 leading-none bg-green-600 text-white rounded-full font-semibold uppercase tracking-wide text-xs float-right">
+                      <span className="inline-block px-2 py-1 leading-none bg-green-800 text-white rounded-full font-semibold uppercase tracking-wide text-xs float-right">
                         {getPercentageChange(
                           card.chart[0].y,
                           card.chart[card.chart.length - 1].y,
